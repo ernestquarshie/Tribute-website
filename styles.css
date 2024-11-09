@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans ms;
+    background-color: #282828;
+  }
+  #header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  #header ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #header li{
+    padding: 0 1rem;
+  }
+  #header a{
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  #introduction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #14FFEC;
+  }
+  #intro{
+    width: 60%;
+  }
+  #img-div{
+    width: 30%; 
+    border-radius: 100px;
+  }
+  img{
+    display: block;
+  }
+  
+  #image{
+    max-width: 100%;
+    max-height: 60%;
+    height: auto;
+    margin: 0 auto;object-fit: cover;
+  }
+  #introduction figcaption{
+    text-align: center;
+  }
+  
+  #biography{
+    padding: 2rem;
+    color: #ffff;
+  }
+  #biography h4{
+    color:#0D7377;
+  }
+  #works, #quote{
+    background-color: #32E0C4;
+    padding: 2rem;
+  }
+  #quote p{
+    color:#696969; 
+  }
+  
+  
+  #tribute-link{ text-decoration: none;
+  }
+  #quote p:last-child{
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  footer{
+    display: flex;
+    color: #0D7377;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  
+  @media screen and (max-width: 576px){
+    #img-div{
+      display: none;
+    }
+
+    #header{
+      padding: 0.5rem;
+    }
+
+    #introduction{
+      padding: 1rem;
+    }
+
+    #biography{
+      padding: 1rem;
+    }
+
+    #works, #quote{
+      background-color: #32E0C4;
+      padding: 1rem;
+    }
+
+    footer{
+      padding: 0 1rem;
+    }
+  }
+  
+  
