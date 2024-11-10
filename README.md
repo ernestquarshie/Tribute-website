@@ -1,6 +1,6 @@
 # Tribute-website
 A tribute website in honor of Leonardo DaVinci.
-This website is built using HTML and CSS. It is also a required project to access a [freecodecamp's](https://www.freecodecamp.org/) Responsive Web Design to Certification.
+This website is built using HTML and CSS. It is also a required project to access a [freecodecamp's](https://www.freecodecamp.org/) Responsive Web Design Certification.
 
 ## Demo
 ![Tribute-website mobile demo](./Demo-Images/phoneview_1.png "mobile view")
